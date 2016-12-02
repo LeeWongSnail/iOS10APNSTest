@@ -30,6 +30,7 @@
 		EB12B4091DF166F100ED6F5A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB12B4071DF166F100ED6F5A /* 1.jpg */; };
 		EB12B40A1DF166F100ED6F5A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB12B4071DF166F100ED6F5A /* 1.jpg */; };
 		EB12B40C1DF1673100ED6F5A /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB12B40B1DF1673100ED6F5A /* 1.mp3 */; };
+		EB12B4101DF16FC400ED6F5A /* scanqrcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB12B40F1DF16FC400ED6F5A /* scanqrcode.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		EB12B3FF1DF1605000ED6F5A /* AppDelegate+LocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LocalNotification.m"; sourceTree = "<group>"; };
 		EB12B4071DF166F100ED6F5A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		EB12B40B1DF1673100ED6F5A /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		EB12B40F1DF16FC400ED6F5A /* scanqrcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scanqrcode.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 		EB12B3971DF116E500ED6F5A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB12B40F1DF16FC400ED6F5A /* scanqrcode.gif */,
 				EB12B40B1DF1673100ED6F5A /* 1.mp3 */,
 				EB12B4071DF166F100ED6F5A /* 1.jpg */,
 				EB12B3FA1DF15B4100ED6F5A /* moments.mp4 */,
@@ -423,6 +426,7 @@
 			files = (
 				EB12B3A71DF116E500ED6F5A /* LaunchScreen.storyboard in Resources */,
 				EB12B3FB1DF15B4100ED6F5A /* moments.mp4 in Resources */,
+				EB12B4101DF16FC400ED6F5A /* scanqrcode.gif in Resources */,
 				EB12B4081DF166F100ED6F5A /* 1.jpg in Resources */,
 				EB12B40C1DF1673100ED6F5A /* 1.mp3 in Resources */,
 				EB12B3A41DF116E500ED6F5A /* Assets.xcassets in Resources */,
@@ -793,6 +797,7 @@
 				EB12B3C31DF116E500ED6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB12B3C41DF116E500ED6F5A /* Build configuration list for PBXNativeTarget "APNSTestTests" */ = {
 			isa = XCConfigurationList;
@@ -801,6 +806,7 @@
 				EB12B3C61DF116E500ED6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB12B3C71DF116E500ED6F5A /* Build configuration list for PBXNativeTarget "APNSTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -809,6 +815,7 @@
 				EB12B3C91DF116E500ED6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB12B3E61DF1546B00ED6F5A /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
 			isa = XCConfigurationList;
@@ -817,6 +824,7 @@
 				EB12B3E81DF1546B00ED6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB12B3F71DF1548800ED6F5A /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
 			isa = XCConfigurationList;
@@ -825,6 +833,7 @@
 				EB12B3F91DF1548800ED6F5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -60,11 +60,12 @@
     content.subtitle = @"百万考生都在用";
     content.body = @"下拉可以看大图呦，速度速度";
     
+//    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"scanqrcode" ofType:@"gif"];
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"jpg"];
     
     if (imagePath.length > 0) {
         NSError *error = nil;
-        UNNotificationAttachment *attachment = [UNNotificationAttachment attachmentWithIdentifier:@"imageattachment" URL:[NSURL URLWithString:imagePath] options:nil error:&error];
+        UNNotificationAttachment *attachment = [UNNotificationAttachment attachmentWithIdentifier:@"imageattachment" URL:[NSURL fileURLWithPath:imagePath] options:nil error:&error];
         if (attachment) {
             content.attachments = @[attachment];
         }
